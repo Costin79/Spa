@@ -13,6 +13,10 @@
 		AC207B3E27D7C042003F4E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC207B3C27D7C042003F4E6E /* Main.storyboard */; };
 		AC207B4027D7C043003F4E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC207B3F27D7C043003F4E6E /* Assets.xcassets */; };
 		AC207B4327D7C043003F4E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC207B4127D7C043003F4E6E /* LaunchScreen.storyboard */; };
+		AC207B4B27D7C08D003F4E6E /* RatingsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC207B4A27D7C08D003F4E6E /* RatingsState.swift */; };
+		AC207B4D27D7C17B003F4E6E /* MassageRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC207B4C27D7C17B003F4E6E /* MassageRating.swift */; };
+		AC207B4F27D7C21F003F4E6E /* SpaStaffRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC207B4E27D7C21F003F4E6E /* SpaStaffRating.swift */; };
+		AC207B5127D7C295003F4E6E /* SpaServiceRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC207B5027D7C295003F4E6E /* SpaServiceRating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AC207B3F27D7C043003F4E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC207B4227D7C043003F4E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC207B4427D7C043003F4E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC207B4A27D7C08D003F4E6E /* RatingsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsState.swift; sourceTree = "<group>"; };
+		AC207B4C27D7C17B003F4E6E /* MassageRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassageRating.swift; sourceTree = "<group>"; };
+		AC207B4E27D7C21F003F4E6E /* SpaStaffRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaStaffRating.swift; sourceTree = "<group>"; };
+		AC207B5027D7C295003F4E6E /* SpaServiceRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaServiceRating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				AC207B3F27D7C043003F4E6E /* Assets.xcassets */,
 				AC207B4127D7C043003F4E6E /* LaunchScreen.storyboard */,
 				AC207B4427D7C043003F4E6E /* Info.plist */,
+				AC207B4A27D7C08D003F4E6E /* RatingsState.swift */,
+				AC207B4C27D7C17B003F4E6E /* MassageRating.swift */,
+				AC207B4E27D7C21F003F4E6E /* SpaStaffRating.swift */,
+				AC207B5027D7C295003F4E6E /* SpaServiceRating.swift */,
 			);
 			path = Spa;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC207B5127D7C295003F4E6E /* SpaServiceRating.swift in Sources */,
 				AC207B3B27D7C042003F4E6E /* ViewController.swift in Sources */,
 				AC207B3727D7C042003F4E6E /* AppDelegate.swift in Sources */,
+				AC207B4B27D7C08D003F4E6E /* RatingsState.swift in Sources */,
+				AC207B4D27D7C17B003F4E6E /* MassageRating.swift in Sources */,
+				AC207B4F27D7C21F003F4E6E /* SpaStaffRating.swift in Sources */,
 				AC207B3927D7C042003F4E6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
